@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+/* ユーザー情報下ボタン */
+
+.btn-users-show {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 /* ユーザー勤怠情報テーブル */
 
 #table-attendances {
@@ -53,4 +60,14 @@
 .btn-basic-info {
   margin: 15px 0;
   width: 30%;
+}
+
+/* 土日の色を変更 */
+
+.wday0 {
+  color: red;
+}
+
+.wday6 {
+  color: blue;
 }
